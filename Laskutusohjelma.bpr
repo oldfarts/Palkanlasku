@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Laskutusohjelma.exe"/>
+    <OBJFILES value="Laskutusohjelma.obj MainForm.obj Person.obj AboutForm.obj 
+      LoginOperations.obj UserrightsForm.obj LoginForm.obj PersondetailForm.obj 
+      PersontaxForm.obj FormFollowerUnit.obj PersondetailOperations.obj 
+      CorporationForm.obj TaxesForm.obj CountSalaryForm.obj Corporation.obj 
+      CorporationOperations.obj PersontaxOperations.obj TaxOperations.obj 
+      Taxes.obj PaySlipDialogi.obj PaySlipReport.obj 
+      CountPrevSalaryOperatios.obj CountSalaryOperations.obj compositeReport.obj"/>
+    <RESFILES value="Laskutusohjelma.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainForm.dfm AboutForm.dfm UserrightsForm.dfm LoginForm.dfm 
+      PersondetailForm.dfm PersontaxForm.dfm CorporationForm.dfm TaxesForm.dfm 
+      CountSalaryForm.dfm PaySlipDialogi.dfm PaySlipReport.dfm compositeReport.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="teeqr.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib qrpt.lib dbrtl.lib vcldb.lib bdertl.lib vclx.lib teedb.lib 
+      tee.lib teeqr.lib teeui.lib"/>
+    <PACKAGES value="vclx.bpi rtl.bpi vcl.bpi dbrtl.bpi vcldb.bpi bdertl.bpi vcldbx.bpi 
+      bcbsmp.bpi dclocx.bpi qrpt.bpi teeui.bpi vclsmp.bpi teedb.bpi tee.bpi 
+      ibsmp.bpi nmfast.bpi inetdb.bpi inet.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="Laskutusohjelma.cpp"/>
+    <INCLUDEPATH value="F:\Ohjelmointi\Laskutusohjelma\FILE_Versio\FILE_versio_0_275;..\..\..\..\ohjelmointi\laskutusohjelma;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="F:\Ohjelmointi\Laskutusohjelma\FILE_Versio\FILE_versio_0_275;..\..\..\..\ohjelmointi\laskutusohjelma;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IF:\Ohjelmointi\Laskutusohjelma\FILE_Versio\FILE_versio_0_275 
+      -I..\..\..\..\ohjelmointi\laskutusohjelma -I$(BCB)\include 
+      -I$(BCB)\include\vcl -src_suffix cpp -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~2\borland\CBUILD~1\lib\vcl35.csm -Hc -Vx -Ve -Tkh30000 
+      -X- -r- -a8 -6 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <CFLAG2 value=""/>
+    <CFLAG3 value=""/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -M -JPHNE"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x"/>
+    <IFLAGS value=""/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Laskutusohjelma.cpp" FORMNAME="" UNITNAME="Laskutusohjelma" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Laskutusohjelma.res" FORMNAME="" UNITNAME="Laskutusohjelma" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainForm.cpp" FORMNAME="FormMain" UNITNAME="MainForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Person.cpp" FORMNAME="" UNITNAME="Person" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="AboutForm.cpp" FORMNAME="FormAbout" UNITNAME="AboutForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LoginOperations.cpp" FORMNAME="" UNITNAME="LoginOperations" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="UserrightsForm.cpp" FORMNAME="FormUserrights" UNITNAME="UserrightsForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LoginForm.cpp" FORMNAME="FormLogin" UNITNAME="LoginForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PersondetailForm.cpp" FORMNAME="FormPersondetail" UNITNAME="PersondetailForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PersontaxForm.cpp" FORMNAME="FormPersontax" UNITNAME="PersontaxForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FormFollowerUnit.cpp" FORMNAME="" UNITNAME="FormFollowerUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PersondetailOperations.cpp" FORMNAME="" UNITNAME="PersondetailOperations" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CorporationForm.cpp" FORMNAME="FormCorporation" UNITNAME="CorporationForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TaxesForm.cpp" FORMNAME="FormTaxes" UNITNAME="TaxesForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CountSalaryForm.cpp" FORMNAME="FormCountSalary" UNITNAME="CountSalaryForm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Corporation.cpp" FORMNAME="" UNITNAME="Corporation" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CorporationOperations.cpp" FORMNAME="" UNITNAME="CorporationOperations" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PersontaxOperations.cpp" FORMNAME="" UNITNAME="PersontaxOperations" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TaxOperations.cpp" FORMNAME="" UNITNAME="TaxOperations" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Taxes.cpp" FORMNAME="" UNITNAME="Taxes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PaySlipDialogi.cpp" FORMNAME="PaySlipDialog" UNITNAME="PaySlipDialogi" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PaySlipReport.cpp" FORMNAME="QuickReport1" UNITNAME="PaySlipReport" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CountPrevSalaryOperatios.cpp" FORMNAME="" UNITNAME="CountPrevSalaryOperatios.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CountSalaryOperations.cpp" FORMNAME="" UNITNAME="CountSalaryOperations.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="compositeReport.cpp" FORMNAME="Form1" UNITNAME="compositeReport" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=1
+Release=1
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1035
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Jani Ärväs
+FileDescription=
+FileVersion=1.1.1.1
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files (x86)\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=2
+Item0=F:\Ohjelmointi\Laskutusohjelma\FILE_Versio\FILE_versio_0_275;..\..\..\..\ohjelmointi\laskutusohjelma;$(BCB)\include;$(BCB)\include\vcl
+Item1=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=2
+Item0=F:\Ohjelmointi\Laskutusohjelma\FILE_Versio\FILE_versio_0_275;..\..\..\..\ohjelmointi\laskutusohjelma;$(BCB)\lib\obj;$(BCB)\lib
+Item1=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=2
+Item0=USEPACKAGES
+Item1=_RTLDLL;USEPACKAGES
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
